@@ -1,0 +1,305 @@
+src/libAtomVM/atomshashtable.c:40:9: style: The scope of the variable 'c' can be reduced. [variableScope]
+    int c;
+        ^
+src/libAtomVM/bif.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 20 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/bif.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/bitstring.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 16 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/bitstring.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/context.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 23 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/context.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/debug.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 18 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/debug.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/defaultatoms.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 16 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/defaultatoms.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/dictionary.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 16 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/dictionary.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/externalterm.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 17 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/externalterm.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/globalcontext.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 17 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/globalcontext.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/iff.c:44:43: style:inconclusive: Function 'scan_iff' argument 2 names different: declaration 'file_size' definition 'buf_size'. [funcArgNamesDifferent]
+void scan_iff(const void *iff_binary, int buf_size, unsigned long *offsets, unsigned long *sizes)
+                                          ^
+src/libAtomVM/iff.h:76:43: note: Function 'scan_iff' argument 2 names different: declaration 'file_size' definition 'buf_size'.
+void scan_iff(const void *iff_binary, int file_size, unsigned long *offsets, unsigned long *sizes);
+                                          ^
+src/libAtomVM/iff.c:44:43: note: Function 'scan_iff' argument 2 names different: declaration 'file_size' definition 'buf_size'.
+void scan_iff(const void *iff_binary, int buf_size, unsigned long *offsets, unsigned long *sizes)
+                                          ^
+src/libAtomVM/interop.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 17 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/interop.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/mailbox.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 18 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/mailbox.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/memory.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 19 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/memory.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/module.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 26 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/module.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/nifs.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 19 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/nifs.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/port.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 17 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/port.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/refc_binary.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 18 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/refc_binary.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/scheduler.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 19 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/scheduler.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/stacktrace.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 18 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/stacktrace.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/term.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 18 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/libAtomVM/term.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/libAtomVM/timer_wheel.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/platforms/esp32/components/avm_builtins/ledc_nif.c:102:27: style: Local variable 'ledc_channel' shadows outer variable [shadowVariable]
+    ledc_channel_config_t ledc_channel = {
+                          ^
+src/platforms/esp32/components/avm_builtins/ledc_nif.c:43:26: note: Shadowed declaration
+static const char *const ledc_channel           = "\x7"  "channel";
+                         ^
+src/platforms/esp32/components/avm_builtins/ledc_nif.c:102:27: note: Shadow variable
+    ledc_channel_config_t ledc_channel = {
+                          ^
+src/platforms/esp32/components/avm_builtins/network_driver.c:160:9: portability: %d in format string (no. 1) requires 'int' but the argument type is 'size_t {aka unsigned long}'. [invalidPrintfArgType_sint]
+        fprintf(stderr, "ssid cannot be more than %d characters\n", sizeof(wifi_config->sta.ssid));
+        ^
+src/platforms/esp32/components/avm_builtins/network_driver.c:166:9: portability: %d in format string (no. 1) requires 'int' but the argument type is 'size_t {aka unsigned long}'. [invalidPrintfArgType_sint]
+        fprintf(stderr, "psk cannot be more than %d characters\n", sizeof(wifi_config->sta.password));
+        ^
+src/platforms/esp32/components/avm_builtins/network_driver.c:251:9: portability: %d in format string (no. 1) requires 'int' but the argument type is 'size_t {aka unsigned long}'. [invalidPrintfArgType_sint]
+        fprintf(stderr, "ssid cannot be more than %d characters\n", sizeof(wifi_config->ap.ssid));
+        ^
+src/platforms/esp32/components/avm_builtins/network_driver.c:257:9: portability: %d in format string (no. 1) requires 'int' but the argument type is 'size_t {aka unsigned long}'. [invalidPrintfArgType_sint]
+        fprintf(stderr, "psk cannot be more than %d characters\n", sizeof(wifi_config->ap.password));
+        ^
+src/platforms/esp32/components/avm_builtins/network_driver.c:409:17: error: Memory pointed to by 'sta_wifi_config' is freed twice. [doubleFree]
+                free(sta_wifi_config);
+                ^
+src/platforms/esp32/components/avm_builtins/network_driver.c:397:13: note: Memory pointed to by 'sta_wifi_config' is freed twice.
+            free(sta_wifi_config);
+            ^
+src/platforms/esp32/components/avm_builtins/network_driver.c:409:17: note: Memory pointed to by 'sta_wifi_config' is freed twice.
+                free(sta_wifi_config);
+                ^
+src/platforms/esp32/components/avm_builtins/nvs_nif.c:140:13: portability: %i in format string (no. 3) requires 'int' but the argument type is 'size_t {aka unsigned long}'. [invalidPrintfArgType_sint]
+            fprintf(stderr, "Unable to set NVS blob. namespace='%s' key='%s' size=%i err=%i\n", namespace, key, size, err);
+            ^
+src/platforms/esp32/components/avm_builtins/nvs_nif.c:261:34: style:inconclusive: Function 'nvs_nif_init' argument 1 names different: declaration 'global' definition 'gloabl'. [funcArgNamesDifferent]
+void nvs_nif_init(GlobalContext *gloabl)
+                                 ^
+src/platforms/esp32/components/avm_builtins/nvs_nif.c:41:41: note: Function 'nvs_nif_init' argument 1 names different: declaration 'global' definition 'gloabl'.
+static void nvs_nif_init(GlobalContext *global);
+                                        ^
+src/platforms/esp32/components/avm_builtins/nvs_nif.c:261:34: note: Function 'nvs_nif_init' argument 1 names different: declaration 'global' definition 'gloabl'.
+void nvs_nif_init(GlobalContext *gloabl)
+                                 ^
+src/platforms/esp32/components/avm_builtins/socket_driver.c:713:13: style: Statements following return, break, continue, goto or throw will never be executed. [unreachableCode]
+            *ok = false;
+            ^
+src/platforms/esp32/components/avm_builtins/socket_driver.c:233:40: style:inconclusive: Function 'socket_driver_init' argument 1 names different: declaration 'global' definition 'glb'. [funcArgNamesDifferent]
+void socket_driver_init(GlobalContext *glb)
+                                       ^
+src/platforms/esp32/components/avm_builtins/socket_driver.c:53:47: note: Function 'socket_driver_init' argument 1 names different: declaration 'global' definition 'glb'.
+static void socket_driver_init(GlobalContext *global);
+                                              ^
+src/platforms/esp32/components/avm_builtins/socket_driver.c:233:40: note: Function 'socket_driver_init' argument 1 names different: declaration 'global' definition 'glb'.
+void socket_driver_init(GlobalContext *glb)
+                                       ^
+src/platforms/esp32/components/avm_builtins/socket_driver.c:409:35: style: Local variable 'accepter' shadows outer variable [shadowVariable]
+        struct TCPServerAccepter *accepter = NULL;
+                                  ^
+src/platforms/esp32/components/avm_builtins/socket_driver.c:399:31: note: Shadowed declaration
+    struct TCPServerAccepter *accepter = malloc(sizeof(struct TCPServerAccepter));
+                              ^
+src/platforms/esp32/components/avm_builtins/socket_driver.c:409:35: note: Shadow variable
+        struct TCPServerAccepter *accepter = NULL;
+                                  ^
+src/platforms/esp32/components/avm_sys/platform_nifs.c:319:0: information: Skipping configuration 'ESP_SLEEP_WAKEUP_BT' since the value of 'ESP_SLEEP_WAKEUP_BT' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+        case ESP_SLEEP_WAKEUP_BT:
+^
+src/platforms/esp32/components/avm_sys/platform_nifs.c:311:0: information: Skipping configuration 'ESP_SLEEP_WAKEUP_COCPU' since the value of 'ESP_SLEEP_WAKEUP_COCPU' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+        case ESP_SLEEP_WAKEUP_COCPU:
+^
+src/platforms/esp32/components/avm_sys/platform_nifs.c:315:0: information: Skipping configuration 'ESP_SLEEP_WAKEUP_COCPU_TRAP_TRIG' since the value of 'ESP_SLEEP_WAKEUP_COCPU_TRAP_TRIG' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+        case ESP_SLEEP_WAKEUP_COCPU_TRAP_TRIG:
+^
+src/platforms/esp32/components/avm_sys/platform_nifs.c:307:0: information: Skipping configuration 'ESP_SLEEP_WAKEUP_WIFI' since the value of 'ESP_SLEEP_WAKEUP_WIFI' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+        case ESP_SLEEP_WAKEUP_WIFI:
+^
+src/platforms/esp32/main/main.c:134:0: information: Skipping configuration 'CONFIG_REBOOT_ON_NOT_OK' since the value of 'CONFIG_REBOOT_ON_NOT_OK' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+        CONFIG_REBOOT_ON_NOT_OK ? true : false;
+^
+src/platforms/generic_unix/lib/socket_driver.c:1095:37: style:inconclusive: Function 'socket_init' argument 1 names different: declaration 'global' definition 'glb'. [funcArgNamesDifferent]
+Context *socket_init(GlobalContext *glb, term opts)
+                                    ^
+src/platforms/generic_unix/lib/generic_unix_sys.h:44:37: note: Function 'socket_init' argument 1 names different: declaration 'global' definition 'glb'.
+Context *socket_init(GlobalContext *global, term opts);
+                                    ^
+src/platforms/generic_unix/lib/socket_driver.c:1095:37: note: Function 'socket_init' argument 1 names different: declaration 'global' definition 'glb'.
+Context *socket_init(GlobalContext *glb, term opts)
+                                    ^
+src/platforms/generic_unix/lib/sys.c:115:28: style: Local variable 'listener' shadows outer variable [shadowVariable]
+            EventListener *listener = listeners;
+                           ^
+src/platforms/generic_unix/lib/sys.c:70:20: note: Shadowed declaration
+    EventListener *listener = listeners;
+                   ^
+src/platforms/generic_unix/lib/sys.c:115:28: note: Shadow variable
+            EventListener *listener = listeners;
+                           ^
+src/platforms/stm32/src/main.c:116:5: warning: %li in format string (no. 2) requires 'long' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    printf("Booting file mapped at: %p, size: %li\n", flashed_avm, size);
+    ^
+src/platforms/stm32/src/main.c:88:9: style: The scope of the variable 'i' can be reduced. [variableScope]
+    int i;
+        ^
+tools/packbeam/packbeam.c:282:86: style:inconclusive: Function 'pack_beam_file' argument 4 names different: declaration 'filename' definition 'section_name'. [funcArgNamesDifferent]
+static void pack_beam_file(FILE *pack, const uint8_t *data, size_t size, const char *section_name, int is_entrypoint, bool include_lines)
+                                                                                     ^
+tools/packbeam/packbeam.c:52:86: note: Function 'pack_beam_file' argument 4 names different: declaration 'filename' definition 'section_name'.
+static void pack_beam_file(FILE *pack, const uint8_t *data, size_t size, const char *filename, int is_entrypoint, bool include_lines);
+                                                                                     ^
+tools/packbeam/packbeam.c:282:86: note: Function 'pack_beam_file' argument 4 names different: declaration 'filename' definition 'section_name'.
+static void pack_beam_file(FILE *pack, const uint8_t *data, size_t size, const char *section_name, int is_entrypoint, bool include_lines)
+                                                                                     ^
+src/platforms/stm32/src/main.c:86:0: style: The function '_write' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/main/main.c:63:0: style: The function 'app_main' is never used. [unusedFunction]
+
+^
+src/libAtomVM/atom.c:57:0: style: The function 'atom_write_mfa' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_builtins/gpio_driver.c:229:0: style: The function 'gpio_driver_create_port' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_builtins/gpio_driver.c:223:0: style: The function 'gpio_driver_init' is never used. [unusedFunction]
+
+^
+src/platforms/stm32/src/lib/sys.c:44:0: style: The function 'msleep' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_sys/platform_defaultatoms.c:110:0: style: The function 'platform_defaultatoms_init' is never used. [unusedFunction]
+
+^
+src/platforms/generic_unix/lib/socket_driver.c:129:0: style: The function 'socket_driver_delete_data' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_builtins/spi_driver.c:628:0: style: The function 'spi_driver_get_peripheral' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_sys/sys.c:122:0: style: The function 'sys_consume_pending_events' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_sys/sys.c:213:0: style: The function 'sys_create_port' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_sys/sys.c:262:0: style: The function 'sys_get_info' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_sys/sys.c:157:0: style: The function 'sys_init_platform' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_sys/sys.c:172:0: style: The function 'sys_millis' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_sys/sys.c:149:0: style: The function 'sys_monotonic_time' is never used. [unusedFunction]
+
+^
+src/platforms/stm32/src/lib/sys.c:73:0: style: The function 'sys_set_timestamp_from_relative_to_abs' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_sys/sys.c:297:0: style: The function 'sys_sleep' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_sys/sys.c:164:0: style: The function 'sys_start_millis_timer' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_sys/sys.c:168:0: style: The function 'sys_stop_millis_timer' is never used. [unusedFunction]
+
+^
+src/platforms/stm32/src/lib/sys.c:38:0: style: The function 'sys_tick_handler' is never used. [unusedFunction]
+
+^
+src/platforms/esp32/components/avm_sys/sys.c:137:0: style: The function 'sys_time' is never used. [unusedFunction]
+
+^
+src/platforms/stm32/src/lib/sys.c:58:0: style: The function 'timespec_diff_to_ms' is never used. [unusedFunction]
+
+^
+src/libAtomVM/valueshashtable.c:108:0: style: The function 'valueshashtable_has_key' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
